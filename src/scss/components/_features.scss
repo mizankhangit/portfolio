@@ -1,0 +1,37 @@
+.Mzn-feature {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  align-items: center;
+
+  &__left {
+    order: 2;
+  }
+
+  &__lists {
+    list-style: none;
+    display: grid;
+    gap: 4px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 8px;
+
+    & svg {
+      color: var(--color-primary);
+      stroke-width: 2;
+      margin-top: 3px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Mzn-feature {
+    grid-template-columns: 1fr;
+
+    &__right {
+      display: none;
+    }
+  }
+}

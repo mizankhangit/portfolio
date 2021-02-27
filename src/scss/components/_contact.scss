@@ -1,0 +1,53 @@
+.Mzn-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+
+  &__addresses {
+    display: grid;
+    gap: 12px;
+    font-size: 18px;
+  }
+
+  &__address {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 16px;
+    align-items: center;
+    color: #666;
+    transition: all 0.3s;
+
+    & svg {
+      width: 25px;
+      height: 25px;
+      stroke-width: 1;
+    }
+
+    & a {
+      color: #666;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      color: var(--color-primary);
+
+      & a {
+        color: var(--color-primary);
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Mzn-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 80px;
+    align-items: center;
+
+    &__right {
+      display: none;
+    }
+  }
+}

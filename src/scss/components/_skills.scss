@@ -1,0 +1,62 @@
+.Mzn-skill {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
+  align-items: center;
+
+  &__steps {
+    border: 1px solid #ececec;
+    display: grid;
+    list-style: none;
+  }
+
+  &__step {
+    border-bottom: 1px solid #ececec;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    &:last-child {
+      border-bottom: 0px;
+    }
+  }
+
+  &__cat {
+    border-right: 1px solid #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+
+    & p {
+      font-size: 17px;
+      font-weight: 500;
+    }
+  }
+
+  &__lists {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px;
+  }
+
+  &__list {
+    padding: 8px;
+    background-color: #eee;
+  }
+}
+
+@media (max-width: 600px) {
+  .Mzn-skill {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: center;
+
+    &__right {
+      display: grid;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.Mzn-heading-one,
+.Mzn-heading-two,
+.Mzn-heading-three,
+.Mzn-heading-four,
+.Mzn-heading-five,
+.Mzn-heading-six {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.Mzn-heading-one {
+  font-size: 50px;
+}
+.Mzn-heading-two {
+  font-size: 40px;
+}
+.Mzn-heading-three {
+  font-size: 30px;
+}
+.Mzn-heading-four {
+  font-size: 25px;
+}
+.Mzn-heading-five {
+  font-size: 20px;
+}
+.Mzn-heading-six {
+  font-size: 16px;
+}
+
+.Mzn-section-heading {
+  font-weight: 500;
+  color: var(--color-primary);
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.Mzn-section-sub-heading {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 16px;
+}

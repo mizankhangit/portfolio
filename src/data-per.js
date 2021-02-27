@@ -1,0 +1,58 @@
+const data = [
+  {
+    id: "per1",
+    link: "http://makeshift-whistle.surge.sh/",
+    imageUrl: "./images/project-per/nature.webp",
+    gitHub: "https://github.com/mizankhangit/natours",
+    name: "Nature (Tour booking website)",
+    tools: ["HTML", "CSS"],
+    tag: "hc",
+  },
+  {
+    id: "per2",
+    link: "http://silent-burst.surge.sh/",
+    imageUrl: "./images/project-per/trillo.webp",
+    gitHub: "https://github.com/mizankhangit/trillo",
+    name: "Trillo (Hotel booking website)",
+    tools: ["HTML", "CSS"],
+    tag: "hc",
+  },
+  {
+    id: "per3",
+    link: "http://melted-pet.surge.sh/",
+    imageUrl: "./images/project-per/nexter.webp",
+    gitHub: "https://github.com/mizankhangit/nexter",
+    name: "Nexter (Real Estate website)",
+    tools: ["HTML", "CSS"],
+    tag: "hc",
+  },
+  {
+    id: "per4",
+    link: "http://vengeful-goldfish.surge.sh/",
+    imageUrl: "./images/project-per/omnifood.webp",
+    gitHub: "https://github.com/mizankhangit/omnifood",
+    name: "Omnifood (Restaurent website)",
+    tools: ["HTML", "CSS"],
+    tag: "hc",
+  },
+  {
+    id: "per5",
+    link: "https://modern-responsive-web.netlify.app/",
+    imageUrl: "./images/project-per/modern-web.webp",
+    gitHub: "https://github.com/mizankhangit/modern-responsive-web",
+    name: "Modern web",
+    tools: ["HTML", "CSS", "jQuery"],
+    tag: "hc",
+  },
+  {
+    id: "per6",
+    link: "https://apple-replica-app.netlify.app/",
+    imageUrl: "./images/project-per/apple.webp",
+    gitHub: "https://github.com/mizankhangit/apple-replica",
+    name: "Apple replica clone",
+    tools: ["HTML", "CSS"],
+    tag: "hc",
+  },
+];
+
+export default data;

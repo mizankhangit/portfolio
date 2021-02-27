@@ -1,0 +1,27 @@
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.Mzn-container {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Mzn-section {
+  padding: 100px 0px;
+  border-bottom: 1px solid #ececec;
+}
+
+@media (max-width: 600px) {
+  .Mzn-container {
+    padding: 0px 20px;
+  }
+
+  .Mzn-section {
+    padding: 40px 0px;
+  }
+}

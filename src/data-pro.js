@@ -1,0 +1,81 @@
+const data = [
+  {
+    id: "pro1",
+    link: "https://boostontime.com/ebay-template-builder/",
+    imageUrl: "./images/project-pro/bot.webp",
+    name: "Ebay template builder",
+    tools: ["HTML", "CSS", "PHP", "jQuery"],
+  },
+  {
+    id: "pro2",
+    link: "https://isharify.com/",
+    imageUrl: "./images/project-pro/isharify.webp",
+    name: "Isharify (big project)-ongoing",
+    tools: ["CSS", "React", "Laravel", "Material UI"],
+  },
+  {
+    id: "pro3",
+    link: "https://boostontime.com/services/a-plus-page-design/",
+    imageUrl: "./images/project-pro/a-plus.webp",
+    name: "Amazon a plus page",
+    tools: ["HTML", "CSS", "PHP", "jQuery"],
+  },
+  {
+    id: "pro4",
+    link: "https://boostontime.com/amazon-data-extractor/",
+    imageUrl: "./images/project-pro/data-crawler.webp",
+    name: "Amazon data crawler",
+    tools: ["HTML", "CSS", "PHP", "jQuery"],
+  },
+  {
+    id: "pro5",
+    link: "https://www.mqrsbrands.com/",
+    imageUrl: "./images/project-pro/mqrs.webp",
+    name: "MQRS Brands (Shopify store)",
+    tools: ["HTML", "CSS", "Liquid", "jQuery"],
+  },
+  {
+    id: "pro6",
+    link: "http://www.ebaystores.com/bastionllc",
+    imageUrl: "./images/project-pro/bastionllc.webp",
+    name: "Bastionllc (Ebay store)",
+    tools: ["HTML", "CSS"],
+  },
+  {
+    id: "pro7",
+    link: "https://bangz-brand.myshopify.com/",
+    imageUrl: "./images/project-pro/bangz.webp",
+    name: "BANGZ Brands (Shopify store)",
+    tools: ["HTML", "CSS", "Liquid", "jQuery"],
+  },
+  {
+    id: "pro8",
+    link: "https://boostontime.com/blog/",
+    imageUrl: "./images/project-pro/blog.webp",
+    name: "Boostontime blog",
+    tools: ["HTML", "CSS", "WordPress", "jQuery"],
+  },
+  {
+    id: "pro9",
+    link: "https://eurowheelusa.com/",
+    imageUrl: "./images/project-pro/eurowheelusa.webp",
+    name: "Eurowheelusa (Shopify store)",
+    tools: ["HTML", "CSS", "Liquid", "jQuery"],
+  },
+  {
+    id: "pro10",
+    link: "https://www.beddingcomfortstore.co.uk/",
+    imageUrl: "./images/project-pro/bedding.webp",
+    name: "Bedding (Shopify store)",
+    tools: ["HTML", "CSS", "Liquid", "jQuery"],
+  },
+  {
+    id: "pro11",
+    link: "https://urbanx-brand.myshopify.com/",
+    imageUrl: "./images/project-pro/urbanx.webp",
+    name: "Urbanx (Shopify store)",
+    tools: ["HTML", "CSS", "Liquid", "jQuery"],
+  },
+];
+
+export default data;
