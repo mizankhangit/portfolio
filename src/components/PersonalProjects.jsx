@@ -19,6 +19,7 @@ const PersonalProjects = (props) => {
             <div className="Mzn-project__desc">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href={project.link}
                 className="Mzn-project__name"
               >
@@ -35,6 +36,7 @@ const PersonalProjects = (props) => {
               <div className="Mzn-project__link-group">
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   className="Mzn-project__link"
                   href={project.link}
                 >
@@ -42,6 +44,7 @@ const PersonalProjects = (props) => {
                 </a>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   className="Mzn-project__link"
                   href={project.gitHub}
                 >

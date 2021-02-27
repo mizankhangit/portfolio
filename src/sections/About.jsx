@@ -25,7 +25,7 @@ const About = () => {
             </p>
           </div>
           <div className="Mzn-about__right">
-            <img src="./images/about2.webp" alt="about image" />
+            <img src="./images/about2.webp" alt="about" />
           </div>
         </div>
       </div>

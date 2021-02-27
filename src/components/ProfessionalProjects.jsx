@@ -11,6 +11,7 @@ const ProfessionalProjects = (props) => {
           <div className="Mzn-project__desc">
             <a
               target="_blank"
+              rel="noreferrer"
               href={project.link}
               className="Mzn-project__name"
             >
@@ -27,6 +28,7 @@ const ProfessionalProjects = (props) => {
             <a
               className="Mzn-project__link"
               target="_blank"
+              rel="noreferrer"
               href={project.link}
             >
               View project

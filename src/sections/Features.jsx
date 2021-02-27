@@ -45,7 +45,7 @@ const Features = () => {
           </div>
           <div className="Mzn-feature__right">
             <div className="Mzn-feature__image">
-              <img src="./images/feature3.webp" alt="feature image" />
+              <img src="./images/feature3.webp" alt="feature" />
             </div>
           </div>
         </div>

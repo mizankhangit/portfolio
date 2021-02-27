@@ -41,7 +41,7 @@ const Contact = () => {
             </ul>
           </div>
           <div className="Mzn-contact__right">
-            <img src="./images/contact.webp" alt="contact image" />
+            <img src="./images/contact.webp" alt="contact" />
           </div>
         </div>
       </div>

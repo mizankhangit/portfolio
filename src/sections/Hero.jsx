@@ -22,6 +22,7 @@ const Hero = () => {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/mizankhangit"
                 className="Mzn-btn Mzn-btn-outline"
               >
@@ -31,7 +32,7 @@ const Hero = () => {
           </div>
           <div className="Mzn-hero__right">
             <div className="Mzn-hero__image">
-              <img src="./images/hero.webp" alt="hero image" />
+              <img src="./images/hero.webp" alt="hero" />
             </div>
           </div>
         </div>
