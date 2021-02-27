@@ -1,3 +1,3 @@
 # Portfolio of Mizan
 
-[Live](https://portfolio-mizan.vercel.app).
+## [Live](https://portfolio-mizan.vercel.app)
