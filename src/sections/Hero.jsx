@@ -17,7 +17,11 @@ const Hero = () => {
               development tools (react, angular, vue, svelte etc.)
             </p>
             <div className="Mzn-btn-group Mzn-mt20">
-              <a href="#!" className="Mzn-btn Mzn-btn-outline">
+              <a
+                href="https://drive.google.com/file/d/1i79tzyeh3_YSJ5o3II_Emys9-EoWdRhG/view?usp=sharing"
+                className="Mzn-btn Mzn-btn-outline"
+                download
+              >
                 Resume
               </a>
               <a
