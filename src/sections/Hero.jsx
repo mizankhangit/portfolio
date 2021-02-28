@@ -18,7 +18,7 @@ const Hero = () => {
             </p>
             <div className="Mzn-btn-group Mzn-mt20">
               <a
-                href="https://drive.google.com/file/d/1i79tzyeh3_YSJ5o3II_Emys9-EoWdRhG/view?usp=sharing"
+                href="./images/resume-updated.pdf"
                 className="Mzn-btn Mzn-btn-outline"
                 download
               >
