@@ -79,22 +79,7 @@ const Projects = () => {
                   JavaScript
                 </button>
               </li>
-              <li
-                className="Mzn-tab"
-                onClick={() =>
-                  setState({
-                    ...state,
-                    num: 3,
-                    show: "ts",
-                  })
-                }
-              >
-                <button
-                  className={`Mzn-tab__btn ${state.num === 3 ? "active" : ""}`}
-                >
-                  TypeScript
-                </button>
-              </li>
+
               <li
                 className="Mzn-tab"
                 onClick={() =>
@@ -111,13 +96,13 @@ const Projects = () => {
                   React
                 </button>
               </li>
-              <li
+              {/* <li
                 className="Mzn-tab"
                 onClick={() =>
                   setState({
                     ...state,
                     num: 5,
-                    show: "uv",
+                    show: "vu",
                   })
                 }
               >
@@ -126,7 +111,7 @@ const Projects = () => {
                 >
                   Vue
                 </button>
-              </li>
+              </li> */}
               <li
                 className="Mzn-tab"
                 onClick={() =>
@@ -148,6 +133,22 @@ const Projects = () => {
                 onClick={() =>
                   setState({
                     ...state,
+                    num: 3,
+                    show: "no",
+                  })
+                }
+              >
+                <button
+                  className={`Mzn-tab__btn ${state.num === 3 ? "active" : ""}`}
+                >
+                  Node
+                </button>
+              </li>
+              {/* <li
+                className="Mzn-tab"
+                onClick={() =>
+                  setState({
+                    ...state,
                     num: 7,
                     show: "me",
                   })
@@ -158,7 +159,7 @@ const Projects = () => {
                 >
                   MERN
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="Mzn-projects-container">
