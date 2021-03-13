@@ -27,7 +27,7 @@ const Projects = () => {
           >
             <ProfessionalProjects data={dataPro} />
 
-            {dataPro.length > 7 && (
+            {dataPro.length > 8 && (
               <div className="Mzn-btn-group Mzn-justify-center">
                 <button
                   className="Mzn-btn Mzn-btn-outline Mzn-mt30"
