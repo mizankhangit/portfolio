@@ -33,7 +33,7 @@ const Features = () => {
               </li>
               <li className="Mzn-feature__list">
                 <CheckIcon />
-                <span>I always follow modern development trends.</span>
+                <span>I love to follow modern development trends.</span>
               </li>
               <li className="Mzn-feature__list">
                 <CheckIcon />
