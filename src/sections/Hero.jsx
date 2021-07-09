@@ -11,14 +11,13 @@ const Hero = () => {
               <span className="highlight-bg">A Frontend Engineer</span>
             </h2>
             <p className="Mzn-hero-desc">
-              Build your web application{" "}
-              <span className="highlight">blazing fast</span> and{" "}
-              <span className="highlight">stunning</span> <br /> using modern
-              development tools (react, angular, vue, svelte etc.)
+              Build <span className="highlight">blazing fast</span> and{" "}
+              <span className="highlight">stunning</span> web application <br />{" "}
+              using modern development tools.
             </p>
             <div className="Mzn-btn-group Mzn-mt20">
               <a
-                href="./images/resume-updated.pdf"
+                href="./images/mizan-resume.pdf"
                 className="Mzn-btn Mzn-btn-outline"
                 download
               >

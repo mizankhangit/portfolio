@@ -76,7 +76,7 @@ const Projects = () => {
                 <button
                   className={`Mzn-tab__btn ${state.num === 2 ? "active" : ""}`}
                 >
-                  JavaScript
+                  JavaScript DOM
                 </button>
               </li>
 
@@ -96,38 +96,6 @@ const Projects = () => {
                   React
                 </button>
               </li>
-              {/* <li
-                className="Mzn-tab"
-                onClick={() =>
-                  setState({
-                    ...state,
-                    num: 5,
-                    show: "vu",
-                  })
-                }
-              >
-                <button
-                  className={`Mzn-tab__btn ${state.num === 5 ? "active" : ""}`}
-                >
-                  Vue
-                </button>
-              </li> */}
-              <li
-                className="Mzn-tab"
-                onClick={() =>
-                  setState({
-                    ...state,
-                    num: 6,
-                    show: "an",
-                  })
-                }
-              >
-                <button
-                  className={`Mzn-tab__btn ${state.num === 6 ? "active" : ""}`}
-                >
-                  Angular
-                </button>
-              </li>
               <li
                 className="Mzn-tab"
                 onClick={() =>
@@ -141,25 +109,9 @@ const Projects = () => {
                 <button
                   className={`Mzn-tab__btn ${state.num === 3 ? "active" : ""}`}
                 >
-                  Node
+                  Fullstack
                 </button>
               </li>
-              {/* <li
-                className="Mzn-tab"
-                onClick={() =>
-                  setState({
-                    ...state,
-                    num: 7,
-                    show: "me",
-                  })
-                }
-              >
-                <button
-                  className={`Mzn-tab__btn ${state.num === 7 ? "active" : ""}`}
-                >
-                  MERN
-                </button>
-              </li> */}
             </ul>
           </div>
           <div className="Mzn-projects-container">

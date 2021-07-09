@@ -11,8 +11,11 @@ const About = () => {
             <p className="Mzn-about__text">
               I am a self-taught front-end engineer based on modern technology
               like (react.js, angular.js, vue.js, svelte.js, etc.). I have also
-              good knowledge on backend technology like node.js, php, mongodb,
-              mysql etc.
+              good knowledge on backend technology like node.js, express.js,
+              mongodb, php, laravel, mysql etc.
+            </p>
+            <p className="Mzn-about__text">
+              I have very good knowledge of making and consuming RESTful API.
             </p>
             <p className="Mzn-about__text">
               I can learn new technology quickly by following documentation and

@@ -20,7 +20,7 @@ const Contact = () => {
               </li>
               <li className="Mzn-contact__address">
                 <PhoneIcon />
-                <span>+88 01735 92 95 61</span>
+                <span>+88 01735 92 95 61 or +88 01611 92 95 61</span>
               </li>
               <li className="Mzn-contact__address">
                 <LinkedinIcon />
