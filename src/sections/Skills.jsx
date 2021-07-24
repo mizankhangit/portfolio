@@ -28,12 +28,13 @@ const Skills = () => {
                   <p>Good Knowledge</p>
                 </div>
                 <ul className="Mzn-skill__lists">
+                  <li className="Mzn-skill__list">Next.js</li>
+                  <li className="Mzn-skill__list">Vue.js</li>
+                  <li className="Mzn-skill__list">Svelte.js</li>
                   <li className="Mzn-skill__list">TypeScript</li>
                   <li className="Mzn-skill__list">Node.js</li>
                   <li className="Mzn-skill__list">Express.js</li>
                   <li className="Mzn-skill__list">MongoDB</li>
-                  <li className="Mzn-skill__list">Next.js</li>
-                  <li className="Mzn-skill__list">Vue.js</li>
                   <li className="Mzn-skill__list">React Native</li>
                   <li className="Mzn-skill__list">Bootstrap</li>
                 </ul>
