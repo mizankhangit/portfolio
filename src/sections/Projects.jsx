@@ -17,26 +17,10 @@ const Projects = () => {
           <SectionTitle
             heading="PROJECT"
             subHeading="Some of my professional projects"
-            note="(These projects I do all frontend task)"
           />
 
-          <div
-            className={`Mzn-projects-container ${
-              !showMore ? "show-less" : "show-more"
-            }`}
-          >
+          <div className={`Mzn-projects-container`}>
             <ProfessionalProjects data={dataPro} />
-
-            {dataPro.length > 8 && (
-              <div className="Mzn-btn-group Mzn-justify-center">
-                <button
-                  className="Mzn-btn Mzn-btn-outline Mzn-mt30"
-                  onClick={() => setShowMore(!showMore)}
-                >
-                  {showMore ? "Show Less" : "Show More"}
-                </button>
-              </div>
-            )}
           </div>
 
           <SectionTitle

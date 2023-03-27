@@ -1,6 +1,63 @@
 import React from "react";
 import SectionTitle from "../components/SectionTitle";
 
+const data = [
+  {
+    id: 1,
+    title: "Expert Level",
+    skills: [
+      "HTML5",
+      "CSS3(SASS)",
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Redux.js(RTK Query)",
+      "Recoil",
+      "Next.js",
+      "Tailwind CSS",
+      "Ant Design",
+      "Material UI",
+      "Bootstrap",
+      "React Bootstrap",
+    ],
+  },
+  {
+    id: 2,
+    title: "Good Knowledge",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "Nest.js",
+      "Mongodb",
+      "PostgreSQL",
+      "Vue.js",
+      "Svelte.js",
+      "Angular.js",
+      "jQuery",
+      "Git and GitHub",
+      "Docker",
+      "Jest",
+    ],
+  },
+  {
+    id: 3,
+    title: "Moderate Knowledge",
+    skills: [
+      "Figma",
+      "Photoshop",
+      "Illustrator",
+      "MySQL",
+      "PHP",
+      "Laravel",
+      "WordPress",
+      "Shopify",
+      "Gatsby.js",
+      "Semantic UI",
+      "Data Structure and Algorithm",
+    ],
+  },
+];
+
 const Skills = () => {
   return (
     <section className="Mzn-section" id="skills">
@@ -12,54 +69,24 @@ const Skills = () => {
               subHeading="As far as what I learn"
             />
             <ul className="Mzn-skill__steps">
-              <li className="Mzn-skill__step">
-                <div className="Mzn-skill__cat">
-                  <p>Expert Level</p>
-                </div>
-                <ul className="Mzn-skill__lists">
-                  <li className="Mzn-skill__list">HTML5</li>
-                  <li className="Mzn-skill__list">CSS3(SASS)</li>
-                  <li className="Mzn-skill__list">React(Redux)</li>
-                  <li className="Mzn-skill__list">JavaScript(Modern)</li>
-                </ul>
-              </li>
-              <li className="Mzn-skill__step">
-                <div className="Mzn-skill__cat">
-                  <p>Good Knowledge</p>
-                </div>
-                <ul className="Mzn-skill__lists">
-                  <li className="Mzn-skill__list">Next.js</li>
-                  <li className="Mzn-skill__list">Vue.js</li>
-                  <li className="Mzn-skill__list">Svelte.js</li>
-                  <li className="Mzn-skill__list">TypeScript</li>
-                  <li className="Mzn-skill__list">Node.js</li>
-                  <li className="Mzn-skill__list">Express.js</li>
-                  <li className="Mzn-skill__list">MongoDB</li>
-                  <li className="Mzn-skill__list">React Native</li>
-                  <li className="Mzn-skill__list">Bootstrap</li>
-                </ul>
-              </li>
-              <li className="Mzn-skill__step">
-                <div className="Mzn-skill__cat">
-                  <p>Moderate Knowledge</p>
-                </div>
-                <ul className="Mzn-skill__lists">
-                  <li className="Mzn-skill__list">PHP</li>
-                  <li className="Mzn-skill__list">WordPress</li>
-                  <li className="Mzn-skill__list">MySQL</li>
-                  <li className="Mzn-skill__list">Shopify</li>
-                  <li className="Mzn-skill__list">Gatsby.js</li>
-                  <li className="Mzn-skill__list">Angular.js</li>
-                  <li className="Mzn-skill__list">jQuery</li>
-                  <li className="Mzn-skill__list">Svelte.js</li>
-                  <li className="Mzn-skill__list">Material UI</li>
-                  <li className="Mzn-skill__list">Ant Design</li>
-                  <li className="Mzn-skill__list">Cypress</li>
-                  <li className="Mzn-skill__list">
-                    Data Structure and Algorithm
+              {data?.map((item, i) => {
+                return (
+                  <li className="Mzn-skill__step" key={i}>
+                    <div className="Mzn-skill__cat">
+                      <p>{item?.title}</p>
+                    </div>
+                    <ul className="Mzn-skill__lists">
+                      {item?.skills?.map((sk, i) => {
+                        return (
+                          <li className="Mzn-skill__list" key={i}>
+                            {sk}
+                          </li>
+                        );
+                      })}
+                    </ul>
                   </li>
-                </ul>
-              </li>
+                );
+              })}
             </ul>
           </div>
           <div className="Mzn-skill__right">

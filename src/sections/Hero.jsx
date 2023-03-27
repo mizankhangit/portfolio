@@ -6,14 +6,17 @@ const Hero = () => {
       <div className="Mzn-container">
         <div className="Mzn-hero">
           <div className="Mzn-hero__left">
-            <h1 className="Mzn-heading-one">Hi, I am Mizanur Rahman</h1>
-            <h2 className="Mzn-heading-two">
+            <h1 className="Mzn-heading-one mb-3">
+              Hi, I am <br />
+              Mizanur Rahman
+            </h1>
+            <h2 className="Mzn-heading-one">
               <span className="highlight-bg">A Frontend Engineer</span>
             </h2>
             <p className="Mzn-hero-desc">
               Build <span className="highlight">blazing fast</span> and{" "}
               <span className="highlight">stunning</span> web application <br />{" "}
-              using modern development tools.
+              using modern web development tools.
             </p>
             <div className="Mzn-btn-group Mzn-mt20">
               <a
@@ -35,7 +38,11 @@ const Hero = () => {
           </div>
           <div className="Mzn-hero__right">
             <div className="Mzn-hero__image">
-              <img src="./images/hero.webp" alt="hero" />
+              <img
+                src="./images/hero-image-2.jpg"
+                alt="hero"
+                style={{ border: "1px solid #eee" }}
+              />
             </div>
           </div>
         </div>
