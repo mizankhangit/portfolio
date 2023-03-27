@@ -7,8 +7,6 @@ import SectionTitle from "../components/SectionTitle";
 
 const Projects = () => {
   const [state, setState] = useState({ num: 1, show: "hc" });
-  const [showMore, setShowMore] = useState(false);
-  console.log(showMore);
 
   return (
     <section className="Mzn-section" id="projects">

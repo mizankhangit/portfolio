@@ -11,7 +11,9 @@ const Hero = () => {
               Mizanur Rahman
             </h1>
             <h2 className="Mzn-heading-one">
-              <span className="highlight-bg">A Frontend Engineer</span>
+              <span className="highlight-bg" style={{ borderRadius: 8 }}>
+                A Frontend Engineer
+              </span>
             </h2>
             <p className="Mzn-hero-desc">
               Build <span className="highlight">blazing fast</span> and{" "}
@@ -23,6 +25,7 @@ const Hero = () => {
                 href="./images/mizan-resume.pdf"
                 className="Mzn-btn Mzn-btn-outline"
                 download
+                style={{ borderRadius: 8 }}
               >
                 Resume
               </a>
@@ -31,6 +34,7 @@ const Hero = () => {
                 rel="noreferrer"
                 href="https://github.com/mizankhangit"
                 className="Mzn-btn Mzn-btn-outline"
+                style={{ borderRadius: 8 }}
               >
                 GitHub
               </a>
@@ -41,7 +45,7 @@ const Hero = () => {
               <img
                 src="./images/hero-image-2.jpg"
                 alt="hero"
-                style={{ border: "1px solid #eee" }}
+                style={{ border: "1px solid #eee", borderRadius: 8 }}
               />
             </div>
           </div>
