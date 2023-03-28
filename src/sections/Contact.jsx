@@ -41,7 +41,11 @@ const Contact = () => {
             </ul>
           </div>
           <div className="Mzn-contact__right">
-            <img src="./images/contact.webp" alt="contact" />
+            <img
+              src="./images/contact.webp"
+              alt="contact"
+              style={{ borderRadius: 8 }}
+            />
           </div>
         </div>
       </div>

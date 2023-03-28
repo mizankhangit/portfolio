@@ -45,7 +45,11 @@ const About = () => {
             })}
           </div>
           <div className="Mzn-about__right">
-            <img src="./images/feature4.webp" alt="about" />
+            <img
+              src="./images/feature4.webp"
+              alt="about"
+              style={{ borderRadius: 8 }}
+            />
           </div>
         </div>
       </div>
