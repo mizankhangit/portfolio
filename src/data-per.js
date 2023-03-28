@@ -1,4 +1,5 @@
 const data = [
+  // HTML CSS
   {
     id: (Date.now() + Math.random()) * 10000,
     link: "http://makeshift-whistle.surge.sh/",
@@ -44,7 +45,6 @@ const data = [
     tools: ["HTML", "CSS"],
     tag: "hc",
   },
-
   {
     id: (Date.now() + Math.random()) * 10000,
     link: "https://apple-replica-app.netlify.app/",
@@ -73,21 +73,13 @@ const data = [
     tag: "hc",
   },
 
+  // Javascript dom
   {
     id: (Date.now() + Math.random()) * 10000,
     link: "https://pig-game-seven.vercel.app/",
     imageUrl: "./images/project-per/pig-game.webp",
     gitHub: "https://github.com/mizankhangit/pig-game",
     name: "Pig Game",
-    tools: ["HTML", "CSS", "JavaScript"],
-    tag: "js",
-  },
-  {
-    id: (Date.now() + Math.random()) * 10000,
-    link: "https://speech-text-reader-eight.vercel.app/",
-    imageUrl: "./images/project-per/speech-text-reader.webp",
-    gitHub: "https://github.com/mizankhangit/speech-text-reader",
-    name: "Speech Text Reader",
     tools: ["HTML", "CSS", "JavaScript"],
     tag: "js",
   },
@@ -138,16 +130,6 @@ const data = [
   },
   {
     id: (Date.now() + Math.random()) * 10000,
-    link: "https://pizza-delivery-appp.herokuapp.com/",
-    imageUrl: "./images/project-per/pizza.webp",
-    gitHub: "https://github.com/mizankhangit/pizza-delivery-app",
-    name: "Pizza delivery app",
-    tools: ["React", "Bootstrap", "Node.js", "MongoDB"],
-    tag: "no",
-  },
-
-  {
-    id: (Date.now() + Math.random()) * 10000,
     link: "https://advanced-dom.vercel.app/",
     imageUrl: "./images/project-per/dom.webp",
     gitHub: "https://github.com/mizankhangit/advanced-dom",
@@ -155,7 +137,6 @@ const data = [
     tools: ["HTML", "CSS", "JavaScript"],
     tag: "js",
   },
-
   {
     id: (Date.now() + Math.random()) * 10000,
     link: "https://mapty.vercel.app/",
@@ -183,31 +164,15 @@ const data = [
     tools: ["HTML", "CSS", "JavaScript"],
     tag: "js",
   },
-  {
-    id: (Date.now() + Math.random()) * 10000,
-    link: "https://reactcomplexapp.vercel.app/",
-    imageUrl: "./images/project-per/complexapp.webp",
-    gitHub: "https://github.com/mizankhangit/reactcomplexapp",
-    name: "Simple blogging app",
-    tools: ["React", "Bootstrap", "Node.js", "MongoDB"],
-    tag: "no",
-  },
+
+  // React
   {
     id: (Date.now() + Math.random()) * 10000,
     link: "https://gatsby-restaurant-project-first.netlify.app/",
     imageUrl: "./images/project-per/restaurant.webp",
     gitHub: "https://github.com/mizankhangit/gatsby-restaurant",
-    name: "Restaurant website",
+    name: "Restaurant Website",
     tools: ["HTML", "CSS", "Gatsby"],
-    tag: "re",
-  },
-  {
-    id: (Date.now() + Math.random()) * 10000,
-    link: "https://breaking-bad-cast.netlify.app/",
-    imageUrl: "./images/project-per/breaking.webp",
-    gitHub: "https://github.com/mizankhangit/breaking-bad-cast",
-    name: "Character search app",
-    tools: ["HTML", "CSS", "React"],
     tag: "re",
   },
   {
@@ -215,7 +180,7 @@ const data = [
     link: "https://mcity-b672b.firebaseapp.com/",
     imageUrl: "./images/project-per/mcity.webp",
     gitHub: "https://github.com/mizankhangit/mcity",
-    name: "Football team MCity",
+    name: "Football Team MCity",
     tools: ["HTML", "CSS", "React"],
     tag: "re",
   },
@@ -224,46 +189,29 @@ const data = [
     link: "https://venue-react-app.netlify.app/",
     imageUrl: "./images/project-per/venue.webp",
     gitHub: "https://github.com/mizankhangit/venue",
-    name: "The venue musical events",
+    name: "The Venue Musical Events",
     tools: ["HTML", "CSS", "React"],
     tag: "re",
   },
   {
     id: (Date.now() + Math.random()) * 10000,
-    link: "https://password-generator-vert.vercel.app/",
-    imageUrl: "./images/project-per/password.webp",
-    gitHub: "https://github.com/mizankhangit/password-generator",
-    name: "Password generator",
-    tools: ["HTML", "CSS", "Angular"],
-    tag: "an",
-  },
-  {
-    id: (Date.now() + Math.random()) * 10000,
-    link: "http://moldy-trousers.surge.sh/",
-    imageUrl: "./images/project-per/clock.webp",
-    gitHub: "https://github.com/mizankhangit/analog-clock",
-    name: "Analog clock",
-    tools: ["HTML", "CSS", "JavaScript"],
-    tag: "js",
-  },
-  {
-    id: (Date.now() + Math.random()) * 10000,
-    link: "https://simpletodoapp1.herokuapp.com/",
-    imageUrl: "./images/project-per/todo.webp",
-    gitHub: "https://github.com/mizankhangit/todo-app",
-    name: "Simple to do app",
-    tools: ["HTML", "Bootstrap", "Node.js", "MonogDB"],
-    tag: "no",
-  },
-
-  {
-    id: (Date.now() + Math.random()) * 10000,
     link: "https://react-todo-beta-eight.vercel.app/",
     imageUrl: "./images/project-per/react-todo.webp",
     gitHub: "https://github.com/mizankhangit/react-todo",
-    name: "React todo app",
+    name: "Todo App",
     tools: ["HTML", "CSS", "react"],
     tag: "re",
+  },
+
+  // Nodejs
+  {
+    id: (Date.now() + Math.random()) * 10000,
+    link: "https://reactcomplexapp.vercel.app/",
+    imageUrl: "./images/project-per/complexapp.webp",
+    gitHub: "https://github.com/mizankhangit/reactcomplexapp",
+    name: "Simple Blogging App",
+    tools: ["React", "Bootstrap", "Node.js", "MongoDB"],
+    tag: "no",
   },
 ];
 

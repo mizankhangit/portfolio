@@ -1,6 +1,33 @@
 import React from "react";
 import SectionTitle from "../components/SectionTitle";
 
+const data = [
+  {
+    id: 1,
+    description: "I am a self-taught Frontend Engineer.",
+  },
+  {
+    id: 2,
+    description:
+      "As a frontend engineer with a strong knowledge of consuming RESTful and GraphQL APIs, I have a unique set of skills that allow me to create high-quality and efficient web applications. I have a passion for staying up-to-date with the latest industry trends and technologies, and I am a quick learner who can adapt to changing project requirements.",
+  },
+  {
+    id: 3,
+    description:
+      "I have the ability to collaborate effectively with backend developers and other stakeholders to achieve project goals. I understand the importance of working closely with the team to ensure that the application meets the needs of the end-users, and I am always willing to provide feedback and suggestions to improve the overall quality of the application.",
+  },
+  {
+    id: 4,
+    description:
+      "I am able to adapt to changing project requirements and implement new features quickly and efficiently. I understand the importance of continuously learning and improving my skills, and I am always seeking out new challenges and opportunities to grow as a developer.",
+  },
+  // {
+  //   id: 5,
+  //   description:
+  //     "In summary, as a frontend developer with a strong knowledge of consuming RESTful and GraphQL APIs and a quick learner, I am well-equipped to create high-quality and efficient web applications that meet the needs of the end-users. I am passionate about staying up-to-date with the latest industry trends and technologies, and I am always seeking out new challenges and opportunities to grow and develop my skills.",
+  // },
+];
+
 const About = () => {
   return (
     <section className="Mzn-section" id="about">
@@ -8,27 +35,17 @@ const About = () => {
         <div className="Mzn-about">
           <div className="Mzn-about__left">
             <SectionTitle heading="ABOUT" subHeading="A little bit about me" />
-            <p className="Mzn-about__text">
-              I am a self-taught front-end engineer based on modern technology
-              like (react.js, angular.js, vue.js, svelte.js, etc.). I have also
-              good knowledge on backend technology like node.js, express.js,
-              mongodb, php, laravel, mysql etc.
-            </p>
-            <p className="Mzn-about__text">
-              I have very good knowledge of making and consuming RESTful API.
-            </p>
-            <p className="Mzn-about__text">
-              I can learn new technology quickly by following documentation and
-              can solve problems by googling. I love team working very much.
-              Taking challenges and solving problems is one of my passion.
-            </p>
-            <p>
-              I can complete projects by deedline. I can also take pressure and
-              able to handle any type of client.
-            </p>
+
+            {data?.map((item, i) => {
+              return (
+                <p key={i} className="Mzn-about__text">
+                  {item?.description}
+                </p>
+              );
+            })}
           </div>
           <div className="Mzn-about__right">
-            <img src="./images/about2.webp" alt="about" />
+            <img src="./images/feature4.webp" alt="about" />
           </div>
         </div>
       </div>
