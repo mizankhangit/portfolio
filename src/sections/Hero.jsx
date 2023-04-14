@@ -16,8 +16,8 @@ const Hero = () => {
               </span>
             </h2>
             <p className="Mzn-hero-desc">
-              Build <span className="highlight">blazing fast</span> and{" "}
-              <span className="highlight">stunning</span> web application <br />{" "}
+              Build <span className="highlight_">blazing fast</span> and{" "}
+              <span className="highlight_">stunning</span> web application <br />{" "}
               using modern web development tools.
             </p>
             <div className="Mzn-btn-group Mzn-mt20">
