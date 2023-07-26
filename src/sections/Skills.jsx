@@ -66,7 +66,7 @@ const Skills = () => {
           <div className="Mzn-skill__left">
             <SectionTitle
               heading="SKILLS"
-              subHeading="As far as what I learn"
+              subHeading="As far as what I learned"
             />
             <ul className="Mzn-skill__steps">
               {data?.map((item, i) => {
