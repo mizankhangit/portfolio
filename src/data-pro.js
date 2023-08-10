@@ -7,6 +7,13 @@ const data = [
     tools: ["Nextjs", "Material UI", "Nestjs", "Redux", "tailwindcss"],
   },
   {
+    id: "11",
+    link: "https://studyinternational.net.au",
+    imageUrl: "./images/project-pro/studyinternational.webp",
+    name: "Study International (Study Abroad Portal)",
+    tools: ["Nextjs", "Ant Design", "Nestjs", "Redux", "tailwindcss"],
+  },
+  {
     id: "2",
     link: "https://dev.bdwinners.com",
     imageUrl: "./images/project-pro/bdwinners.webp",
@@ -63,13 +70,13 @@ const data = [
     tools: ["HTML", "CSS", "Liquid", "jQuery"],
   },
 
-  {
-    id: "10",
-    link: "https://eurowheelusa.com/",
-    imageUrl: "./images/project-pro/eurowheelusa.webp",
-    name: "Eurowheelusa (Shopify Store)",
-    tools: ["HTML", "CSS", "Liquid", "jQuery"],
-  },
+  // {
+  //   id: "10",
+  //   link: "https://eurowheelusa.com/",
+  //   imageUrl: "./images/project-pro/eurowheelusa.webp",
+  //   name: "Eurowheelusa (Shopify Store)",
+  //   tools: ["HTML", "CSS", "Liquid", "jQuery"],
+  // },
 ];
 
 export default data;
