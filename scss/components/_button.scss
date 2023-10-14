@@ -1,0 +1,25 @@
+.Mzn-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Mzn-btn {
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s;
+  cursor: pointer;
+  color: #666666;
+  background: transparent;
+}
+
+.Mzn-btn-outline {
+  border: 1px solid var(--color-primary);
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+}

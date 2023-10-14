@@ -1,0 +1,35 @@
+.Mzn-hero {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+
+  & .highlight {
+    color: var(--color-primary-darker);
+    font-weight: 400;
+  }
+
+  .Mzn-hero-desc {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+
+  .highlight-bg {
+    background-image: var(--gradient-primary);
+    color: #fff;
+    padding: 2px 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Mzn-hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    height: auto;
+
+    &__right {
+      display: none;
+    }
+  }
+}
