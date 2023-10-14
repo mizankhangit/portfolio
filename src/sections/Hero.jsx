@@ -12,13 +12,13 @@ const Hero = () => {
             </h1>
             <h2 className="Mzn-heading-one">
               <span className="highlight-bg" style={{ borderRadius: 8 }}>
-                A Frontend Engineer
+                Sr. Software Engineer
               </span>
             </h2>
             <p className="Mzn-hero-desc">
-              Build <span className="highlight_">blazing fast</span> and{" "}
-              <span className="highlight_">stunning</span> web application <br />{" "}
-              using modern web development tools.
+              Build <span className="highlight">secure </span> modern user
+              friendly super fast web application using modern web development
+              tools.
             </p>
             <div className="Mzn-btn-group Mzn-mt20">
               <a
