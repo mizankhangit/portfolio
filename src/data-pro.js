@@ -28,6 +28,35 @@ const data = [
     tools: ["Nextjs", "Ant Design", "Adonisjs", "Redux", "tailwindcss"],
   },
   {
+    id: "12",
+    link: "https://worldunihub.com/",
+    imageUrl: "./images/project-pro/world-uni-hub.webp",
+    name: "Education Portal",
+    tools: [
+      "Nextjs",
+      "Ant Design",
+      "Nestjs",
+      "PostgreSQL",
+      "RTK Query",
+      "tailwindcss",
+    ],
+  },
+  {
+    id: "13",
+    link: "https://move-int-web.superairtravel.com/",
+    imageUrl: "./images/project-pro/move-int.webp",
+    name: "Study Abroad",
+    tools: [
+      "Nextjs",
+      "Ant Design",
+      "Nestjs",
+      "PostgreSQL",
+      "RTK Query",
+      "tailwindcss",
+    ],
+  },
+
+  {
     id: "4",
     link: "https://24onbd.com",
     imageUrl: "./images/project-pro/onbd24.webp",

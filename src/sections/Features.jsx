@@ -4,45 +4,104 @@ import SectionTitle from "../components/SectionTitle";
 
 const data = [
   {
-    id: 1,
+    title: "User Authentication and Authorization",
     description:
-      "One of my greatest strengths as a frontend engineer is my ability to collaborate effectively with designers, developers, and stakeholders to achieve project goals and deliver high-quality products.",
+      "Implement secure user authentication and authorization systems using technologies like OAuth, JWT, or role-based access control.",
   },
   {
-    id: 2,
+    title: "Responsive Web Design",
     description:
-      "With my expertise in HTML, CSS, JavaScript, and various frontend frameworks such as React, Vue, and Angular, I am able to turn complex ideas into intuitive and user-friendly interfaces.",
+      "Ensure that the application is responsive, providing an excellent user experience on various devices and screen sizes.",
   },
   {
-    id: 3,
+    title: "Database Design and Management",
     description:
-      "As a frontend engineer, I have a keen eye for detail and a passion for optimizing performance, ensuring that my code is always efficient and scalable.",
+      "Optimize database schema and query performance for efficient data storage and retrieval.",
   },
   {
-    id: 4,
+    title: "RESTful API Development",
     description:
-      "Through my experience in designing and developing responsive and accessible web applications, I have learned the importance of incorporating best practices in UX/UI design to enhance the user's journey and increase engagement.",
+      "Design and develop robust and well-documented APIs for seamless communication between front-end and back-end components.",
   },
   {
-    id: 5,
+    title: "Real-time Features",
     description:
-      "As a frontend engineer, I have a strong passion for creating visually stunning and interactive web applications that provide users with a seamless and enjoyable experience.",
-  },
-
-  {
-    id: 7,
-    description:
-      "I am constantly staying up to date with the latest technologies and trends in frontend development, allowing me to provide innovative solutions to various challenges in the industry.",
+      "Implement real-time functionality using technologies like WebSockets for chat, notifications, or live updates.",
   },
   {
-    id: 8,
+    title: "Search and Filtering",
     description:
-      "My dedication to continuous learning and improvement has enabled me to tackle complex problems with confidence, and has helped me to establish myself as a trusted and reliable frontend engineer in the industry.",
+      "Create advanced search and filtering features to help users quickly find relevant information.",
   },
   {
-    id: 8,
+    title: "Data Visualization",
     description:
-      "I am excited about the future of frontend development and the role it plays in shaping the digital landscape, and I look forward to contributing my skills and expertise to create innovative and impactful web applications.",
+      "Develop interactive data visualization components using libraries like D3.js or Chart.js.",
+  },
+  {
+    title: "Internationalization and Localization",
+    description:
+      "Add support for multiple languages and regions to make the application accessible to a global audience.",
+  },
+  {
+    title: "Performance Optimization",
+    description:
+      "Optimize the application's performance by minimizing load times, reducing latency, and caching frequently accessed data.",
+  },
+  {
+    title: "Security",
+    description:
+      "Implement security features, such as input validation, protection against common web vulnerabilities (e.g., Cross-Site Scripting, SQL Injection), and encryption of sensitive data.",
+  },
+  {
+    title: "Cloud Integration",
+    description:
+      "Integrate the application with cloud services (e.g., AWS, Azure, or Google Cloud) for scalability and reliability.",
+  },
+  {
+    title: "Automated Testing",
+    description:
+      "Develop unit, integration, and end-to-end tests to ensure the application's stability and reliability.",
+  },
+  {
+    title: "Logging and Monitoring",
+    description:
+      "Implement comprehensive logging and monitoring systems to detect and diagnose issues in real-time.",
+  },
+  {
+    title: "Content Management",
+    description:
+      "Create content management systems to allow non-technical users to manage website content easily.",
+  },
+  {
+    title: "E-commerce Features",
+    description:
+      "Implement features like shopping carts, payment gateways, and order management for e-commerce applications.",
+  },
+  {
+    title: "User Feedback and Analytics",
+    description:
+      "Integrate user feedback and analytics tools to gather insights and make data-driven decisions for improvements.",
+  },
+  {
+    title: "Mobile App Integration",
+    description:
+      "Create mobile app counterparts or responsive design for better mobile accessibility.",
+  },
+  {
+    title: "Scalability",
+    description:
+      "Plan for and implement strategies for scaling the application as user traffic and data volume grow.",
+  },
+  {
+    title: "Documentation",
+    description:
+      "Maintain clear and up-to-date documentation for code, APIs, and system architecture.",
+  },
+  {
+    title: "Continuous Integration and Deployment (CI/CD)",
+    description:
+      "Set up CI/CD pipelines to automate the deployment process, ensuring a smooth and error-free release cycle.",
   },
 ];
 
