@@ -12,7 +12,7 @@ const Hero = () => {
             </h1>
             <h2 className="Mzn-heading-one">
               <span className="highlight-bg" style={{ borderRadius: 8 }}>
-                Sr. Software Engineer
+                Frontend Engineer
               </span>
             </h2>
             <p className="Mzn-hero-desc">
