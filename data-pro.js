@@ -14,32 +14,11 @@ const data = [
     tools: ["Nextjs", "Ant Design", "Nestjs", "Redux", "tailwindcss"],
   },
   {
-    id: "2",
-    link: "https://dev.bdwinners.com",
-    imageUrl: "./images/project-pro/bdwinners.webp",
-    name: "BD Winners (Brand Promotion)",
-    tools: ["Nextjs", "Ant Design", "Nestjs", "Redux", "tailwindcss"],
-  },
-  {
     id: "3",
     link: "https://m4yours.com",
     imageUrl: "./images/project-pro/m4yours.webp",
     name: "M4YOURS IT (Portfolio)",
     tools: ["Nextjs", "Ant Design", "Adonisjs", "Redux", "tailwindcss"],
-  },
-  {
-    id: "12",
-    link: "https://worldunihub.com/",
-    imageUrl: "./images/project-pro/world-uni-hub.webp",
-    name: "Education Portal",
-    tools: [
-      "Nextjs",
-      "Ant Design",
-      "Nestjs",
-      "PostgreSQL",
-      "RTK Query",
-      "tailwindcss",
-    ],
   },
   {
     id: "13",
@@ -62,13 +41,6 @@ const data = [
     imageUrl: "./images/project-pro/onbd24.webp",
     name: "24ONBD (News Portal)",
     tools: ["Nextjs", "Ant Design", "Adonisjs", "Redux", "tailwindcss"],
-  },
-  {
-    id: "5",
-    link: "https://dev.monitrix.online/",
-    imageUrl: "./images/project-pro/monitrix.webp",
-    name: "Monitrix (Website Uptime Monitoring)",
-    tools: ["Nextjs", "Ant Design", "Nestjs", "Redux", "tailwindcss"],
   },
   {
     id: "6",
