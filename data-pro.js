@@ -7,42 +7,6 @@ const data = [
     tools: ["Nextjs", "Material UI", "Nestjs", "Redux", "tailwindcss"],
   },
   {
-    id: "11",
-    link: "https://studyinternational.net.au",
-    imageUrl: "./images/project-pro/studyinternational.webp",
-    name: "Study International (Study Abroad Portal)",
-    tools: ["Nextjs", "Ant Design", "Nestjs", "Redux", "tailwindcss"],
-  },
-  {
-    id: "3",
-    link: "https://m4yours.com",
-    imageUrl: "./images/project-pro/m4yours.webp",
-    name: "M4YOURS IT (Portfolio)",
-    tools: ["Nextjs", "Ant Design", "Adonisjs", "Redux", "tailwindcss"],
-  },
-  {
-    id: "13",
-    link: "https://move-int-web.superairtravel.com/",
-    imageUrl: "./images/project-pro/move-int.webp",
-    name: "Study Abroad",
-    tools: [
-      "Nextjs",
-      "Ant Design",
-      "Nestjs",
-      "PostgreSQL",
-      "RTK Query",
-      "tailwindcss",
-    ],
-  },
-
-  {
-    id: "4",
-    link: "https://24onbd.com",
-    imageUrl: "./images/project-pro/onbd24.webp",
-    name: "24ONBD (News Portal)",
-    tools: ["Nextjs", "Ant Design", "Adonisjs", "Redux", "tailwindcss"],
-  },
-  {
     id: "6",
     link: "https://boostontime.com/ebay-template-builder",
     imageUrl: "./images/project-pro/boostontime.webp",
