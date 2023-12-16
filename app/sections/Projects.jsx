@@ -7,7 +7,7 @@ const Projects = () => {
     <section className="Mzn-section" id="projects">
       <div className="Mzn-container">
         <div className="Mzn-project-wrapper">
-          <SectionTitle heading="PROJECT" subHeading="Some of my projects" />
+          <SectionTitle heading="PROJECT" />
           <div className={`Mzn-projects-container`}>
             <ProfessionalProjects data={dataPro} />
           </div>
