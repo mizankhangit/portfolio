@@ -6,7 +6,7 @@ const data = [
   {
     title: "User Authentication and Authorization",
     description:
-      "Implement secure user authentication and authorization systems using technologies like OAuth, JWT, or role-based access control.",
+      "Implement secure user authentication and authorization systems using technologies like JWT, or role-based access control.",
   },
   {
     title: "Responsive Web Design",

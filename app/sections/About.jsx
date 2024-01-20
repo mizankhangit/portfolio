@@ -5,7 +5,7 @@ const data = [
   {
     id: 2,
     description:
-      "As a Senior Software Engineer with a strong knowledge of creating RESTful and GraphQL APIs, I have a unique set of skills that allow me to create high-quality and efficient web applications. I have a passion for staying up-to-date with the latest industry trends and technologies, and I am a quick learner who can adapt to changing project requirements.",
+      "As a Senior Frontend Engineer with a strong knowledge of consuming RESTful and GraphQL APIs, I have a unique set of skills that allow me to create high-quality and efficient web applications. I have a passion for staying up-to-date with the latest industry trends and technologies, and I am a quick learner who can adapt to changing project requirements.",
   },
   {
     id: 3,

@@ -7,6 +7,27 @@ const data = [
     tools: ["Nextjs", "Material UI", "Nestjs", "Redux", "tailwindcss"],
   },
   {
+    id: "11",
+    link: "https://studyinternational.net.au",
+    imageUrl: "./images/project-pro/studyinternational.webp",
+    name: "Study International (Study Abroad Portal)",
+    tools: ["Nextjs", "Ant Design", "Nestjs", "Redux", "tailwindcss"],
+  },
+  {
+    id: "12",
+    link: "https://24onbd.com",
+    imageUrl: "./images/project-pro/onbd24.webp",
+    name: "24onbd (News Aggregator Site)",
+    tools: ["Nextjs", "Ant Design", "Nestjs", "Redux", "tailwindcss"],
+  },
+  {
+    id: "13",
+    link: "https://m4yours.com",
+    imageUrl: "./images/project-pro/m4yours.webp",
+    name: "m4yours (Portfolio Website)",
+    tools: ["Nextjs", "Ant Design", "Nestjs", "Redux", "tailwindcss"],
+  },
+  {
     id: "6",
     link: "https://boostontime.com/ebay-template-builder",
     imageUrl: "./images/project-pro/boostontime.webp",
