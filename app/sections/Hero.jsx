@@ -49,7 +49,7 @@ const Hero = () => {
 
             <div className="Mzn-hero__actions">
               <a
-                href="./images/mizan-resume.pdf"
+                href="./images/Mizanur Rahman Resume.pdf"
                 className="Mzn-btn Mzn-btn-primary"
                 download
                 id="hero-download-resume"
