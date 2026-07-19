@@ -1,53 +1,79 @@
 import React from "react";
 import SectionTitle from "../components/SectionTitle";
 
-const data = [
+const skillCategories = [
   {
     id: 1,
-    title: "Expert Level",
-    skills: [
-      "TypeScript",
-      "React.js",
-      "Next.js",
-      "Redux.js(RTK Query)",
-      "Tailwind CSS",
-      "Ant Design",
-      "Bootstrap",
-    ],
+    icon: "💻",
+    title: "Languages",
+    variant: "primary",
+    skills: ["TypeScript", "JavaScript"],
   },
   {
     id: 2,
-    title: "Good Knowledge",
+    icon: "⚛️",
+    title: "Frontend",
+    variant: "primary",
     skills: [
-      "Vue.js",
-      "Svelte.js",
-      "Angular.js",
-      "jQuery",
-      "Git and GitHub",
-      "Node.js",
-      "Express.js",
-      "Nest.js",
-      "PostgreSQL",
-      "MySQL",
-      "Mongodb",
-      "PHP",
-      "Laravel",
+      "React.js",
+      "Next.js",
+      "Redux Toolkit",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Shadcn/UI",
+      "GraphQL",
     ],
   },
   {
     id: 3,
-    title: "Moderate Knowledge",
+    icon: "🔧",
+    title: "Backend",
+    variant: "secondary",
+    skills: ["Node.js", "Express.js", "NestJS", "REST APIs"],
+  },
+  {
+    id: 4,
+    icon: "🗄️",
+    title: "Databases",
+    variant: "secondary",
+    skills: ["PostgreSQL", "MongoDB", "MySQL"],
+  },
+  {
+    id: 5,
+    icon: "☁️",
+    title: "Cloud & DevOps",
+    variant: "secondary",
+    skills: ["AWS", "Docker", "Git", "GitHub", "GitLab"],
+  },
+  {
+    id: 6,
+    icon: "🛠️",
+    title: "Frameworks & Platforms",
+    variant: "",
+    skills: ["React Native", "Vue", "Svelte", "Django", "Laravel", "WordPress", "Shopify"],
+  },
+  {
+    id: 7,
+    icon: "🤖",
+    title: "AI Tools & IDEs",
+    variant: "",
+    skills: ["Claude Code", "Codex", "GitHub Copilot", "Antigravity"],
+  },
+  {
+    id: 8,
+    icon: "📐",
+    title: "Tools & Practices",
+    variant: "",
     skills: [
-      "Docker",
-      "Jest",
       "Figma",
-      "Photoshop",
-      "Illustrator",
-      "WordPress",
-      "Shopify",
-      "Gatsby.js",
-      "Semantic UI",
-      "Data Structure and Algorithm",
+      "Postman",
+      "Responsive Design",
+      "Performance Optimization",
+      "Code Review",
+      "Agile/Scrum",
+      "Jira",
+      "Cross-Browser Compatibility",
     ],
   },
 ];
@@ -56,36 +82,32 @@ const Skills = () => {
   return (
     <section className="Mzn-section" id="skills">
       <div className="Mzn-container">
-        <div className="Mzn-skill">
-          <div className="Mzn-skill__left">
-            <SectionTitle
-              heading="SKILLS"
-              subHeading="As far as what I learned"
-            />
-            <ul className="Mzn-skill__steps">
-              {data?.map((item, i) => {
-                return (
-                  <li className="Mzn-skill__step" key={i}>
-                    <div className="Mzn-skill__cat">
-                      <p>{item?.title}</p>
-                    </div>
-                    <ul className="Mzn-skill__lists">
-                      {item?.skills?.map((sk, i) => {
-                        return (
-                          <li className="Mzn-skill__list" key={i}>
-                            {sk}
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-          <div className="Mzn-skill__right">
-            <img src="./images/skill2-tr.webp" alt="skill" />
-          </div>
+        <div className="Mzn-skills-header">
+          <SectionTitle
+            heading="SKILLS"
+            subHeading="Technologies I work with"
+          />
+        </div>
+
+        <div className="Mzn-skills-grid">
+          {skillCategories.map((cat) => (
+            <div className="Mzn-skill-category" key={cat.id}>
+              <div className="Mzn-skill-category__icon-wrap">{cat.icon}</div>
+              <h3 className="Mzn-skill-category__title">{cat.title}</h3>
+              <div className="Mzn-skill-pills">
+                {cat.skills.map((skill, i) => (
+                  <span
+                    key={i}
+                    className={`Mzn-skill-pill${
+                      cat.variant ? ` Mzn-skill-pill--${cat.variant}` : ""
+                    }`}
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

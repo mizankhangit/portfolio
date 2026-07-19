@@ -1,12 +1,18 @@
 .Mzn-tab-container {
   display: flex;
-  margin-top: 30px;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .Mzn-tabs {
   list-style: none;
   display: flex;
-  overflow: auto;
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid var(--glass-border);
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  gap: 4px;
 }
 
 .Mzn-tab {
@@ -14,23 +20,25 @@
 
   &__btn {
     border: none;
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
-    border-bottom: 2px solid #e0e0e0;
-    padding: 12px 20px;
+    background: transparent;
+    padding: 10px 24px;
     font-family: var(--font-primary);
-    font-size: 17px;
-    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    border-radius: var(--radius-pill);
     cursor: pointer;
-    transition: all 0.3s;
+    transition: var(--transition-smooth);
 
     &.active {
-      color: var(--color-primary);
-      border-bottom: 2px solid var(--color-primary);
+      color: #fff;
+      background: var(--gradient-primary);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
     }
 
-    &:hover {
-      color: var(--color-primary);
+    &:hover:not(.active) {
+      color: var(--text-heading);
+      background: rgba(255, 255, 255, 0.05);
     }
   }
 }

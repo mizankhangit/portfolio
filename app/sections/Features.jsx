@@ -1,107 +1,60 @@
 import React from "react";
-import CheckIcon from "../components/icons";
 import SectionTitle from "../components/SectionTitle";
 
-const data = [
+const features = [
   {
-    title: "User Authentication and Authorization",
+    icon: "⚡",
+    title: "High-Performance UI",
     description:
-      "Implement secure user authentication and authorization systems using technologies like JWT, or role-based access control.",
+      "Building fast, optimized interfaces with minimal load times through code splitting, lazy loading, and smart caching strategies.",
   },
   {
+    icon: "📱",
     title: "Responsive Web Design",
     description:
-      "Ensure that the application is responsive, providing an excellent user experience on various devices and screen sizes.",
+      "Pixel-perfect responsive layouts that deliver excellent user experience across all devices and screen sizes.",
   },
   {
-    title: "Database Design and Management",
+    icon: "🔌",
+    title: "API Integration",
     description:
-      "Optimize database schema and query performance for efficient data storage and retrieval.",
+      "Seamless REST and GraphQL API integration with robust error handling, optimistic updates, and real-time data sync.",
   },
   {
-    title: "RESTful API Development",
-    description:
-      "Design and develop robust and well-documented APIs for seamless communication between front-end and back-end components.",
-  },
-  {
+    icon: "🔴",
     title: "Real-time Features",
     description:
-      "Implement real-time functionality using technologies like WebSockets for chat, notifications, or live updates.",
+      "WebSocket-powered live features — chat, notifications, live dashboards — delivering instant, reactive user experiences.",
   },
   {
-    title: "Search and Filtering",
-    description:
-      "Create advanced search and filtering features to help users quickly find relevant information.",
-  },
-  {
+    icon: "📊",
     title: "Data Visualization",
     description:
-      "Develop interactive data visualization components using libraries like D3.js or Chart.js.",
+      "Interactive charts and analytics dashboards using Plotly.js and D3.js to transform complex data into clear insights.",
   },
   {
-    title: "Internationalization and Localization",
+    icon: "🏗️",
+    title: "Clean Architecture",
     description:
-      "Add support for multiple languages and regions to make the application accessible to a global audience.",
+      "Writing maintainable, reusable code with strong patterns — Redux Toolkit, modular components, and consistent naming conventions.",
   },
   {
-    title: "Performance Optimization",
+    icon: "🔐",
+    title: "Auth & Security",
     description:
-      "Optimize the application's performance by minimizing load times, reducing latency, and caching frequently accessed data.",
+      "Implementing secure authentication flows using JWT, role-based access control, and protection against common vulnerabilities.",
   },
   {
-    title: "Security",
+    icon: "☁️",
+    title: "Cloud & DevOps",
     description:
-      "Implement security features, such as input validation, protection against common web vulnerabilities (e.g., Cross-Site Scripting, SQL Injection), and encryption of sensitive data.",
+      "Deployment and scaling on AWS with Docker containers and CI/CD pipelines for efficient, reliable release cycles.",
   },
   {
-    title: "Cloud Integration",
+    icon: "🤝",
+    title: "Team Leadership",
     description:
-      "Integrate the application with cloud services (e.g., AWS, Azure, or Google Cloud) for scalability and reliability.",
-  },
-  {
-    title: "Automated Testing",
-    description:
-      "Develop unit, integration, and end-to-end tests to ensure the application's stability and reliability.",
-  },
-  {
-    title: "Logging and Monitoring",
-    description:
-      "Implement comprehensive logging and monitoring systems to detect and diagnose issues in real-time.",
-  },
-  {
-    title: "Content Management",
-    description:
-      "Create content management systems to allow non-technical users to manage website content easily.",
-  },
-  {
-    title: "E-commerce Features",
-    description:
-      "Implement features like shopping carts, payment gateways, and order management for e-commerce applications.",
-  },
-  {
-    title: "User Feedback and Analytics",
-    description:
-      "Integrate user feedback and analytics tools to gather insights and make data-driven decisions for improvements.",
-  },
-  {
-    title: "Mobile App Integration",
-    description:
-      "Create mobile app counterparts or responsive design for better mobile accessibility.",
-  },
-  {
-    title: "Scalability",
-    description:
-      "Plan for and implement strategies for scaling the application as user traffic and data volume grow.",
-  },
-  {
-    title: "Documentation",
-    description:
-      "Maintain clear and up-to-date documentation for code, APIs, and system architecture.",
-  },
-  {
-    title: "Continuous Integration and Deployment (CI/CD)",
-    description:
-      "Set up CI/CD pipelines to automate the deployment process, ensuring a smooth and error-free release cycle.",
+      "Leading frontend teams, conducting code reviews, mentoring junior developers, and upholding engineering best practices.",
   },
 ];
 
@@ -110,16 +63,28 @@ const Features = () => {
     <section className="Mzn-section" id="features">
       <div className="Mzn-container">
         <div className="Mzn-feature">
-          <SectionTitle heading="FEATURES" subHeading="My key features" />
+          <div className="Mzn-feature__header">
+            <SectionTitle
+              centered={true}
+              heading="CAPABILITIES"
+              subHeading="What I bring to the table"
+            />
+            <p className="Mzn-feature__desc">
+              A comprehensive set of skills and capabilities built over 6+ years
+              of professional frontend and fullstack development.
+            </p>
+          </div>
+
           <ul className="Mzn-feature__lists">
-            {data?.map((item, i) => {
-              return (
-                <li className="Mzn-feature__list" key={i}>
-                  <CheckIcon />
-                  <span>{item?.description}</span>
-                </li>
-              );
-            })}
+            {features.map((item, i) => (
+              <li className="Mzn-feature__list" key={i}>
+                <div className="feature-icon-wrap">
+                  <span className="feature-icon">{item.icon}</span>
+                </div>
+                <h3 className="feature-title">{item.title}</h3>
+                <p className="feature-desc">{item.description}</p>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
