@@ -1,16 +1,18 @@
 import React from "react";
 
 const SectionTitle = (props) => {
+  const centered = props.centered;
+
   return (
     <div
-      className={`Mzn-section-title ${props.className ? props.className : ""}`}
+      className={`Mzn-section-title${centered ? " Mzn-section-title--centered" : ""}${props.className ? ` ${props.className}` : ""}`}
       style={props.style}
     >
       {props.heading && (
-        <h2 className="Mzn-section-heading">{props.heading}</h2>
+        <p className="Mzn-section-label">{props.heading}</p>
       )}
       {props.subHeading && (
-        <h3 className="Mzn-section-sub-heading">{props.subHeading}</h3>
+        <h2 className="Mzn-section-sub-heading">{props.subHeading}</h2>
       )}
       {props.note && <p className="Mzn-note">{props.note}</p>}
     </div>
