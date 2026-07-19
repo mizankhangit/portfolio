@@ -1,5 +1,33 @@
 const data = [
   {
+    id: "105",
+    link: "https://knowverse.idare.ai/",
+    imageUrl: "./images/project-pro/knowverse.webp",
+    name: "KnowVerse AI (AI-powered chatbot application)",
+    tools: ["Reactjs", "Tailwindcss", "shadcdn"],
+  },
+  {
+    id: "104",
+    link: "https://aieasy.idare.ai/easy",
+    imageUrl: "./images/project-pro/aieasy.webp",
+    name: "AI Easy (AI platform for data processing, machine learning)",
+    tools: ["Reactjs", "Tailwindcss", "shadcdn"],
+  },
+  {
+    id: "102",
+    link: "https://idare.ai/",
+    imageUrl: "./images/project-pro/website.webp",
+    name: "Knowverse Website",
+    tools: ["Nextjs", "Tailwindcss", "shadcdn"],
+  },
+  {
+    id: "103",
+    link: "https://www.movement.idare.ai/",
+    imageUrl: "./images/project-pro/dashboard.webp",
+    name: "Dashboard",
+    tools: ["Reactjs", "Plotlyjs", "Redux", "Material UI"],
+  },
+  {
     id: "1",
     link: "https://myunisearch.com",
     imageUrl: "./images/project-pro/unisearch.webp",
